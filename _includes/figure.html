@@ -1,0 +1,9 @@
+{% comment %}
+  Image with optional caption and credit.
+  Params: src, alt, caption, credit, align (center | left | right), width (px, for floated images)
+{% endcomment %}
+<figure class="figure figure-{{ include.align | default: 'center' }}"{% if include.width %} style="--figure-width: {{ include.width }}px"{% endif %}>
+  <img src="{{ include.src | relative_url }}" alt="{{ include.alt }}" loading="lazy">
+  {% if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
+  {% if include.credit %}<figcaption class="credit">{{ include.credit }}</figcaption>{% endif %}
+</figure>

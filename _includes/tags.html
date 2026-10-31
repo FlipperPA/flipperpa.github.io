@@ -1,0 +1,14 @@
+{% comment %}
+  Renders a list of tags. Params: tags (array), link (true to link to /tags/).
+{% endcomment %}
+{% if include.tags and include.tags.size > 0 %}
+  <span class="tags">
+    {% for tag in include.tags %}
+      {% if include.link %}
+        <a class="tag" href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}">{{ tag }}</a>
+      {% else %}
+        <span class="tag">{{ tag }}</span>
+      {% endif %}
+    {% endfor %}
+  </span>
+{% endif %}

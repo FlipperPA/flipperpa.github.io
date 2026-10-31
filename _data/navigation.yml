@@ -1,0 +1,9 @@
+- title: Posts
+  url: /
+  match: posts
+- title: Open Source Projects
+  url: /open-source-projects/
+  match: projects
+- title: About
+  url: /about/
+  match: about

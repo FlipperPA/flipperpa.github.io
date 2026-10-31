@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<article class="wrapper post h-entry">
+  {% if page.hero %}
+    <div class="hero" style="background-image: url('{{ page.hero | relative_url }}')" role="img" aria-label=""></div>
+  {% endif %}
+
+  <header class="post-header">
+    <h1 class="post-title p-name">{{ page.title }}</h1>
+    {% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}
+    <p class="post-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      {% include tags.html tags=page.tags link=true %}
+    </p>
+  </header>
+
+  <div class="post-content e-content">
+    {{ content }}
+  </div>
+
+  <nav class="post-nav" aria-label="More posts">
+    {% if page.previous %}
+      <a class="prev" href="{{ page.previous.url | relative_url }}"><small>&larr; Newer</small><br>{{ page.previous.title }}</a>
+    {% endif %}
+    {% if page.next %}
+      <a class="next" href="{{ page.next.url | relative_url }}"><small>Older &rarr;</small><br>{{ page.next.title }}</a>
+    {% endif %}
+  </nav>
+</article>

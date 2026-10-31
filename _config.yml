@@ -1,0 +1,65 @@
+# Site settings
+title: "PyPhilly: Timothy Allen"
+tagline: "Python, Django, Wagtail, and other musings from Philadelphia"
+description: >-
+  PyPhilly is the website of Tim Allen, a web developer living in Philadelphia.
+  Tim writes about Python, Django, Wagtail, and open source.
+author: Timothy Allen
+lang: en
+
+# While testing, this is the GitHub Pages URL. When pyphilly.org is pointed at
+# GitHub Pages (see README.md), change it to https://pyphilly.org
+url: "https://flipperpa.github.io"
+baseurl: ""
+
+github_username: flipperpa
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  hard_wrap: false
+
+# Keep the old PyPhilly.org URLs working: /my-post-slug/
+permalink: /:title/
+
+paginate: 10
+paginate_path: /page:num/
+
+# Only plugins on the GitHub Pages allow list can be used.
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+collections:
+  projects:
+    output: true
+    permalink: /open-source-projects/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      section: posts
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+      section: projects
+
+# Not part of the site. The resume/, parking/ and ice-cream/ directories are
+# deliberately NOT excluded: they are published as-is, just not linked in the menu.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - node_modules
+  - .bundle

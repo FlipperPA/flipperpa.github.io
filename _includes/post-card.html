@@ -1,0 +1,14 @@
+<article class="card">
+  <h2 class="card-title"><a href="{{ include.post.url | relative_url }}">{{ include.post.title }}</a></h2>
+  <p class="post-meta">
+    <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: "%B %-d, %Y" }}</time>
+    {% include tags.html tags=include.post.tags link=true %}
+  </p>
+  <p class="card-text">
+    {% if include.post.description %}
+      {{ include.post.description }}
+    {% else %}
+      {{ include.post.excerpt | strip_html | truncatewords: 40 }}
+    {% endif %}
+  </p>
+</article>

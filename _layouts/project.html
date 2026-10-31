@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<article class="wrapper post">
+  {% if page.hero %}
+    <div class="hero" style="background-image: url('{{ page.hero | relative_url }}')" role="img" aria-label=""></div>
+  {% endif %}
+
+  <header class="post-header">
+    <p class="breadcrumb"><a href="{{ '/open-source-projects/' | relative_url }}">&larr; Open Source Projects</a></p>
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}
+    <p class="post-meta">{% include tags.html tags=page.tags %}</p>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+</article>
