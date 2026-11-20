@@ -9,7 +9,7 @@ hero: /assets/images/philly-skyline.original.jpg
 
 ## About Tim
 
-Tim is the IT Director of Advanced Initiatives for [Wharton Research Data Services](https://wrds-www.wharton.upenn.edu/pages/about/) at the University of Pennsylvania, which has over 450 subscribers including some fly-by-night schools you may have never heard of, like Harvard University, Stanford University, and the University of Chicago. Previously, Tim was IT Director for Crompco, LLC in Plymouth Meeting, PA. Crompco is known for being the most technically innovative company in the environmental testing field, having been featured in the press for their corporate training in Second Life and field solutions several times.
+Tim is the Principal Engineer for [Wharton Research Data Services](https://wrds-www.wharton.upenn.edu/pages/about/) at [the Wharton School](https://www.wharton.upenn.edu/) of the University of Pennsylvania, which has over 500 subscribers including Harvard University, Stanford University, M.I.T., and the University of Chicago. Previously, Tim was IT Director for Crompco, LLC in Plymouth Meeting, PA. Crompco is now Owl Services, and was known for being the a very technically innovative company in the environmental testing field, having been featured in the press for their corporate training in Second Life and field data collection solutions.
 
 ## Python & Django
 
