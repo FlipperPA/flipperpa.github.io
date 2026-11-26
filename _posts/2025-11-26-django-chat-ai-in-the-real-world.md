@@ -1,7 +1,7 @@
 ---
 title: "Django Chat: A.I. in the Real World (with Marlene Mhangami, William Vincent, and Carlton Gibson)"
 layout: post
-date: 2026-11-26 08:06:11
+date: 2025-11-26 08:06:11
 tags: ["AI", "Django", "Microsoft"]
 description: "A guest appearance on Django Chat with Marlene Mhangami, Senior Developer Advocate for Python and A.I. at Microsoft."
 ---
