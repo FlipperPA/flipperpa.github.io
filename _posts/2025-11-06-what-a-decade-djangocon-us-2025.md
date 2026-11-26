@@ -2,12 +2,24 @@
 title: "What a Decade! (DjangoCon US 2025)"
 layout: post
 date: 2025-11-06 06:01:08
-tags: ["Django", "Community", "Conferences & Meetups", "Jobs", "AI", "Leadership"]
+tags: ["Django", "Community", "Conferences & Meetups", "Jobs", "AI", "Leadership", Recovery]
 description: "My talk from DjangoCon US 2025, looking back on a decade in the Django community."
 ---
 
-My talk from DjangoCon US 2025, “What a Decade!”, is now available. Video production by [Confreaks](https://confreaks.com).
+My talk from [DjangoCon US 2025, “What a Decade!”](https://2025.djangocon.us/talks/what-a-decade/). Video production by the wonderful people at [Confreaks](https://confreaks.com).
 
-You can find the talk details on the [DjangoCon US 2025 site](https://2025.djangocon.us/talks/what-a-decade/).
+*Content Warning:* This talk will address addiction and the loss of friends due to alcoholism in the third section.
+
+2025 marks a decade that our team has been using Python and Django.
+
+In the first part of the talk, I will explain the process we went through to select our new web framework and language of choice. We were meticulous, and developed a process called DevTAP, or Development Technology Assessment Process. We asked well over a hundred questions about each. What databases did the framework support? How much activity was there on Stack Overflow? What kind of CSV support was available? Each question was given a score of 0, 1, or 2: 0 for no support, 1 for support, or 2 for supports and excels. We found that our existing technology was definitely outdated, but that most of the frameworks we were looking at (Django, Rails, CodeIgniter, .NET) all shared most of the same features.
+
+In the second part of the talk, I'll share why we were extremely lucky. While we had assessed our technology needs, we hadn't asked the most important questions. Does this web framework community support our morals? What is the governance model for the language and framework? Is it owned by a non-profit? Does it support our belief that diversity, equity, and inclusion are mandatory features of a community? Becoming part of the Python and Django communities forced us to acknowledge that we had been asking the wrong questions, and admit that we had gotten incredibly lucky with our choice.
+
+In the third part, I will talk about my own journey in recovery. I attended my first PyCon US in 2015, and only the final day of that conference in Montreal, I saw Jacob Kaplan-Moss give a keynote. I had no idea at the time, but that would also be my first day clean and sober. Since then, my work colleagues, my Django family, the Python community at large, and my recovery family have been part of an amazing team that has filled my life with joy, support, knowledge, true friendship, education, and empathy.
+
+Django is many things: a community, an ecosystem, and a web framework. I will spend a short time pointing out that no LLM coding assistant will ever be able to provide the most important part: the community.
+
+I'm incredibly lucky to be part of some incredible communities; to get to congregate yearly at DjangoCon US with some of my favorite humans on this rock; to have a yearly reminder that most people are good. That we don't just come together to build a better web framework, we come together to build a better planet.
 
 {% include youtube.html id="fuHkKQRoxBg" title="What a Decade! with Timothy Allen" %}
