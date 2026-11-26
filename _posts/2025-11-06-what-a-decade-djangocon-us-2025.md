@@ -2,7 +2,7 @@
 title: "What a Decade! (DjangoCon US 2025)"
 layout: post
 date: 2025-11-06 06:01:08
-tags: ["Django", "Conferences & Meetups"]
+tags: ["Django", "Community", "Conferences & Meetups", "Jobs", "AI", "Leadership"]
 description: "My talk from DjangoCon US 2025, looking back on a decade in the Django community."
 ---
 
